@@ -10,9 +10,10 @@ var SamlAuth = require('../lib');
 
 var options = require('./secrets');
 
-server.pack.register(SamlAuth, function (err) {
+server.register(SamlAuth, function (err) {
   var samlOptions = {
-    path: options.path,
+    loginPath: options.loginPath,
+    loginComplete: options.loginComplete,
     protocol: options.protocol,
     entryPoint: options.entryPoint,
     additionalEntryPointParams: options.additionalEntryPointParams,

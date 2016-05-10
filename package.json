@@ -11,15 +11,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:pebblecode/hapi-auth-saml.git"
+    "url": "https://github.com/jar349/hapi-auth-saml.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pebblecode/hapi-auth-saml/issues"
+    "url": "https://github.com/jar349/hapi-auth-saml/issues"
   },
-  "homepage": "https://github.com/pebblecode/hapi-auth-saml",
-  "author": "Pebble{code} <opensource@pebblecode.com>",
+  "homepage": "https://github.com/jar349/hapi-auth-saml",
+  "author": "John Ruiz <jruiz@johnruiz.com>",
   "contributors": [
+    {
+      "name": "John Ruiz",
+      "email": "jruiz@johnruiz.com"
+    },
     {
       "name": "Tu Tak Tran",
       "email": "ttt@pebblecode.com"
@@ -35,7 +39,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": ">=0.12.x"
+    "node": ">=4.x"
   },
   "devDependencies": {
     "hapi": "^8.8.0",
